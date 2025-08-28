@@ -26,10 +26,23 @@ This repository contains the implementation of an **Agentic Retrieval-Augmented 
 | `README.md`  | Project overview and usage instructions          |
 
 ---
+## ⚙️ Requirements
+- Python 3.10+
+- Required libraries:
+  - `transformers`
+  - `torch`
+  - `llama-index`
+  - `faiss-cpu`
+  - `scikit-learn`
+  - `pandas`, `numpy`
+  - `matplotlib` (for evaluation plots)
 
+---
 ## 🚀 Running the Notebook
 
 1. Open the notebook:notebooks/AgenticRAG.ipynb
+2. Load the dataset from Zenodo
+3. Run all cells in the notebook to reproduce the pipeline: Preprocessing → Retrieval (Sparse + Dense) → Hybrid retrieval → Classification → Evaluation
 
 ## 👩‍💻 Author
 
